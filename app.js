@@ -22,20 +22,20 @@ nicksFlicks.config(function($stateProvider, $urlRouterProvider) {
       },
       'body': {
         templateUrl: 'partials/movies.html',
-        controller: 'moviesCtrl'
+        controller: 'MoviesCtrl'
       },
     }
   });
 
   $stateProvider.state('movies.reviews', {
-    url: "/:courseId",
+    url: "/:movieId",
     views: {
       'header': {
         templateUrl: "partials/header.html",
       },
       'body': {
         templateUrl: "partials/movies.reviews.html",
-        controller: "reviewsCtrl"
+        controller: "ReviewsCtrl"
       },
     }
   });
