@@ -9,15 +9,18 @@
     <script src="controllers/MoviesController.js"></script>
     <script src="controllers/ReviewsController.js"></script>
     <script src="controllers/HeadersController.js"></script>
+    <script src="controllers/FootersController.js"></script>
     <script src="services/MoviesFactory.js"></script>
     <script src="services/UtilitiesFactory.js"></script>
     <script src="directives/myDirectives.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
   </head>
-  <body>
+  <body change-class="day|| night">
     <div class="container">
       <div ui-view="header"></div>
       <div ui-view="body"></div>
+      <button change-class="night">Night Mode</button>
 
     </div>
 

@@ -1,0 +1,16 @@
+ul {
+	list-style-type: none;
+	text-decoration: underline;	
+}
+
+p {
+	text-decoration: none;
+}
+
+.day {
+	filter: invert(0%);
+}
+
+.night {
+	filter: invert(100%);
+}
