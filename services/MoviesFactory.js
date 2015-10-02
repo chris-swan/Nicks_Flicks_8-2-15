@@ -1,7 +1,7 @@
 nicksFlicks.factory('MoviesFactory', function MoviesFactory() {
   var factory ={};
   factory.movies = [ 
-  {name: "test", review: "It was good", id: 1 }
+  {name: "test", review: "It was good", id: 1}
   ];
 
 
