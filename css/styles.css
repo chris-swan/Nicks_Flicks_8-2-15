@@ -7,10 +7,15 @@ p {
 	text-decoration: none;
 }
 
-.day {
-	filter: invert(0%);
+.night {
+
+	background-color: black;
+	color: white;
+
 }
 
-.night {
-	filter: invert(100%);
+.day {
+	background-color: white;
+	color: black;
 }
+

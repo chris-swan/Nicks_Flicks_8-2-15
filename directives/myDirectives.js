@@ -1,7 +1,7 @@
-nicksFlicks.directive("changeClass", function() {
-	return function (scope, element) {
+nicksFlicks.directive("toggleBodyClass", function($document) {
+	return function (scope, element, attrs) {
 		element.bind("click", function() {
-			element.toggleClass("normal");
+			$document.find("body").toggleClass(attrs.toggleBodyClass);
 		});
 	}
 });
