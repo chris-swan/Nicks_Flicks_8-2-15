@@ -1,4 +1,4 @@
-<div ng-show="movie.reviews.length">
-  <h2> {{ item.title }} </h2>
-  <p> {{ item.review }} </p>
+<div ng-show="movies.review.length">
+  <h2 ng-repeat="item in movies.title"> {{ movies.title }} </h2>
+  <p ng-repeat="item in movie.reviews"> {{ item.review }} </p>
 </div>

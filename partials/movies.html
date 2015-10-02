@@ -1,22 +1,26 @@
-<div ng-show="movies.length">
-  <h1>Movies</h1>
-  <ul>
-    <li ng-repeat="item in movies" >
-      <a ui-sref="movies.reviews({ movieTitle: item.title })">{{ item.title }}</a>
-    </li>
-  </ul>
+<div class="col-md-4">
+  <div ng-show="movies.length">
+    <h1>Movies</h1>
+    <ul>
+      <li ng-repeat="item in movies" >
+        <a ui-sref="movies.reviews({ movieTitle: item.title })">{{ item.title }}</a>
+      </li>
+    </ul>
+  </div>
 </div>
 
-<div class="col-md-4">
-  <h3>Create New Movie Review</h3>
-  <form ng-submit="MoviesFactory.addMovie()" id="user-input" role="form">
-    <div class="form-group">
-      <input type="text" ng-model="MoviesFactory.movietitle" class="form-control" placeholder="Enter the title for the review here" required>
-      <br>
-      <textarea type="text area" ng-model="MoviesFactory.movieReview" class="form-control" placeholder="Enter the review text here" required></textarea>
-    </div>
+<div class="col-md-6">
+  <div class="newMovie">
+    <h3>Create New Movie Review</h3>
+    <form ng-submit="MoviesFactory.addMovie()" id="user-input" role="form">
+      <div class="form-group">
+        <input type="text" ng-model="MoviesFactory.movietitle" class="form-control" placeholder="Enter the title for the review here" required>
+        <br>
+        <textarea type="text area" ng-model="MoviesFactory.movieReview" class="form-control" placeholder="Enter the review text here" required></textarea>
+      </div>
     <button type="submit" class="btn btn-default">Submit</button>
   </form>
+  </div>
 </div>
 
 <div ui-view="body"></div>
