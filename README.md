@@ -9,11 +9,11 @@ A site that holds movie reviews of different movies so people can view and post 
 
 ## Setup
 
-* Clone the project using the link provided on Github in the Terminal by using ```git clone```.
-* If you are on a mac, use Terminal to type in ```python -m SimpleHTTPServer``` from the top level of the project folder.
-open browser to ```localhost:8000``` to view site.
+- clone this repository
+- If you are on a mac, open Terminal to the top level of the project folder, then enter `python -m SimpleHTTPServer`
+open browser to `localhost:8000` to view site.
+- To view if you are on Windows, you can download Mongoose, copy it to your project folder, and double-click it to launch a server and open your page in the browser.
 
-If you are on windows, download Mongoose, copy it to project folder, and double click it to launch a server and open your page in the browser.
 
 ## Technologies Used
 
@@ -41,4 +41,4 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+THE SOFTWARE.# _Student Roster_
