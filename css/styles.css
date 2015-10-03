@@ -10,14 +10,27 @@ p {
 .night {
 
 	background-color: black;
-	color: white;
+	color: #DADCE3;
 }
 
-.day {
-	background-color: white;
+body {
+	background-color: #EBECF0;
 	color: black;
 }
 
 .newMovie {
 	position: center;
+}
+
+.title {
+	text-align: center;
+}
+
+.create {
+	text-align: center;
+}
+
+.line-seperator {
+	border-bottom: 2px solid gray;
+	padding-top: 3px; 
 }
