@@ -3,8 +3,8 @@ nicksFlicks.factory('MoviesFactory', function MoviesFactory() {
 
   //Hardcoded movie reviews
   factory.movies = [ 
-  {title: "test", review: "It was good"},
-  {title: "Second Movie", review: "It was bad"}
+  { title: "test", review: "It was good" },
+  { title: "Second Movie", review: "It was bad" }
   ];
 
 //function for adding new movie reviews:

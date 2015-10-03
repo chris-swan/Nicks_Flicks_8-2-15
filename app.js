@@ -27,15 +27,15 @@ nicksFlicks.config(function($stateProvider, $urlRouterProvider) {
     }
   });
 
-  $stateProvider.state('movies.reviews', {
-    url: "/:movieId",
+  $stateProvider.state('movies.review', {
+    url: "/:movieTitle",
     views: {
       'header': {
         templateUrl: "partials/header.html",
       },
       'body': {
         templateUrl: "partials/movies.reviews.html",
-        controller: "ReviewsCtrl"
+        controller: "MoviesReviewCtrl"
       },
     }
   });
