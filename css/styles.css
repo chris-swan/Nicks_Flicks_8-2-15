@@ -18,10 +18,20 @@ body {
 	color: black;
 }
 
+.main {
+	position: absolute;
+	left: 30em;
+	top: 10em;
+	right: 0;
+	bottom: 0;
+}
+
 .newMovie {
 	position: center;
 }
-
+.reviews {
+	postion: center;
+}
 .title {
 	text-align: center;
 }
