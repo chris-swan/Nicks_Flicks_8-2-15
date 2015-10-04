@@ -1,13 +1,15 @@
 <!-- Movie review list - some hardcoded, additional added by user: -->
+<div class="sideBar">
 <div class="col-md-4">
   <div ng-show="movies.length">
-    <h1> </h1>
+   <!--  <h1> </h1> this h1 creates space so its not slammed against the header....Not ideal. -->
     <ul>
       <li ng-repeat="item in movies" >
         <a ui-sref="movies.review({ movieTitle: item.title })">{{ item.title }}</a>
       </li>
     </ul>
   </div>
+</div>
 </div>
 
 
