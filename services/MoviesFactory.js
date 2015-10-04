@@ -1,7 +1,7 @@
 nicksFlicks.factory('MoviesFactory', function MoviesFactory() {
   var factory ={};
 
-  //Hardcoded movie reviews
+  //Hardcoded movie reviews:
   factory.movies = [ 
   { title: "Charlottes Web", review: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop. Kielbasa turducken turkey cow shoulder pig prosciutto hamburger corned beef short loin, meatloaf tri-tip drumstick. Shankle sirloin ground round fatback, cow pancetta boudin t-bone pig. Ham short ribs cow tri-tip ribeye beef ribs boudin. Short ribs pork belly leberkas salami chuck, pork loin ball tip tenderloin turkey chicken pork chop filet mignon biltong." },
   { title: "The Delta Force", review: "Chuck ipsum. Chuck Norris doesn't wear a watch, He decides what time it is. Some people wear Superman pajamas, Superman wears Chuck pajamas. Chuck Norris doesn’t need to swallow when eating food. Death once had a near Chuck experience. Crop circles are a result of Chuck Norris's sneeze while walking through a corn field. Chuck Norris ordered a Big Mac at Burger King, and got one." },
@@ -12,7 +12,7 @@ nicksFlicks.factory('MoviesFactory', function MoviesFactory() {
   { title: "Night of the Living Dead", review: "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris." },
   ];
 
-//function for adding new movie reviews:
+  //function for adding new movie reviews:
   factory.addMovie = function() {
     factory.movies.push({ title: factory.movieTitle, review: factory.movieReview });
     factory.movieTitle = null;
